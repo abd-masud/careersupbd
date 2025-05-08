@@ -37,20 +37,27 @@ const counselors: Counselor[] = [
     title: "Senior Counsellor",
     imageUrl: "/images/kazi.jpg",
   },
+  {
+    name: "AJAY KUMAR DAS",
+    experience: "32 Years of experience",
+    fee: "10,000 BDT",
+    title: "Senior Counsellor",
+    imageUrl: "/images/ajay.jpg",
+  },
 ];
 
-export const Preparation = () => {
+export const Counseling = () => {
   return (
     <main className="px-4 py-10">
       <h2 className="text-3xl font-semibold text-center mb-2">
-        Job Interview Preparation
+        Career Counselling
       </h2>
       <p className="text-center text-gray-600 mb-8">
         Select the mentor who aligns with your career goals and start your
         journey toward success today!
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-screen-xl mx-auto px-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-screen-xl mx-auto px-4">
         {counselors.map((counselor, index) => (
           <div
             key={index}

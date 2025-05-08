@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "footer_bg": "url('/images/footer.jpg')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
