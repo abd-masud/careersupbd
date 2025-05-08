@@ -1,17 +1,25 @@
 export const Success = () => {
   return (
     <main className="py-12 px-4 bg-white text-center">
-      <h2 className="text-3xl font-bold text-gray-800 mb-2">
-        Our Success Story
-      </h2>
-      <p className="text-gray-600 mb-10">
-        Select the mentor who aligns with your career goals and start your
-        journey toward success today!
-      </p>
+      <div className="text-center mb-8">
+        <p className="text-[#1967D2] font-bold text-3xl">Our Success Story</p>
+        <div className="flex items-center justify-center mt-2">
+          <div className="flex items-center gap-1">
+            <div className="h-1 w-1 bg-[#2563EB]"></div>
+            <div className="h-1 w-1 bg-[#2563EB]"></div>
+            <div className="h-1 w-1 bg-[#2563EB]"></div>
+            <div className="h-1 w-40 bg-[#2563EB]"></div>
+          </div>
+        </div>
+        <h2 className="mt-4 px-4">
+          Select the mentor who aligns with your career goals and start your
+          journey toward success today!
+        </h2>
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center items-start max-w-screen-xl mx-auto px-4">
         {/* First Video */}
-        <div className="border-2 border-red-300 rounded-md overflow-hidden">
+        <div className="border border-[#2563EB] rounded-md overflow-hidden">
           <iframe
             className="w-full h-64 md:h-80"
             src="https://www.youtube.com/embed/VIDEO_ID_1"
@@ -29,7 +37,7 @@ export const Success = () => {
         </div>
 
         {/* Second Video */}
-        <div className="border-2 border-red-300 rounded-md overflow-hidden">
+        <div className="border border-[#2563EB] rounded-md overflow-hidden">
           <iframe
             className="w-full h-64 md:h-80"
             src="https://www.youtube.com/embed/VIDEO_ID_2"

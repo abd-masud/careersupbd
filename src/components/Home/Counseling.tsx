@@ -10,52 +10,60 @@ type Counselor = {
 
 const counselors: Counselor[] = [
   {
-    name: "SHOHAG FARDIN ORON",
+    name: "SHOHAG FARDIN",
     experience: "5 Years of experience",
     fee: "5000 BDT",
     title: "Counsellor",
-    imageUrl: "/images/oron.jpg",
+    imageUrl: "/images/member1.jpg",
   },
   {
-    name: "PROF. S.M. ARIFUZZAMAN",
+    name: "S.M. ARIFUZZAMAN",
     experience: "21 Years of experience",
     fee: "15,000 BDT",
     title: "Senior Counsellor",
-    imageUrl: "/images/arifuzzaman.jpg",
+    imageUrl: "/images/member2.jpg",
   },
   {
-    name: "MASHAHED HASSAN (SIMANTA)",
+    name: "MASHAHED HASSAN",
     experience: "8 Years of experience",
     fee: "8000 BDT",
     title: "Counsellor",
-    imageUrl: "/images/simanta.jpg",
+    imageUrl: "/images/member3.jpg",
   },
   {
-    name: "KAZI RAKIBUDDIN AHMED",
+    name: "KAZI RAKIBUDDIN",
     experience: "35 Years of experience",
     fee: "20,000 BDT",
     title: "Senior Counsellor",
-    imageUrl: "/images/kazi.jpg",
+    imageUrl: "/images/member4.jpg",
   },
   {
     name: "AJAY KUMAR DAS",
     experience: "32 Years of experience",
     fee: "10,000 BDT",
     title: "Senior Counsellor",
-    imageUrl: "/images/ajay.jpg",
+    imageUrl: "/images/member5.jpg",
   },
 ];
 
 export const Counseling = () => {
   return (
     <main className="px-4 py-10">
-      <h2 className="text-3xl font-semibold text-center mb-2">
-        Career Counselling
-      </h2>
-      <p className="text-center text-gray-600 mb-8">
-        Select the mentor who aligns with your career goals and start your
-        journey toward success today!
-      </p>
+      <div className="text-center mb-8">
+        <p className="text-[#1967D2] font-bold text-3xl">Career Counselling</p>
+        <div className="flex items-center justify-center mt-2">
+          <div className="flex items-center gap-1">
+            <div className="h-1 w-1 bg-[#2563EB]"></div>
+            <div className="h-1 w-1 bg-[#2563EB]"></div>
+            <div className="h-1 w-1 bg-[#2563EB]"></div>
+            <div className="h-1 w-40 bg-[#2563EB]"></div>
+          </div>
+        </div>
+        <p className="mt-4 px-4">
+          Select the mentor who aligns with your career goals and start your
+          journey toward success today!
+        </p>
+      </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-screen-xl mx-auto px-4">
         {counselors.map((counselor, index) => (
@@ -81,7 +89,7 @@ export const Counseling = () => {
             <button className="text-green-600 mt-1 text-sm hover:underline">
               See Details
             </button>
-            <button className="mt-3 bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-800">
+            <button className="mt-3 bg-[#2563EB] text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-300">
               Book Appointment
             </button>
           </div>

@@ -209,7 +209,7 @@ export const Navigation = () => {
               />
               <button
                 type="submit"
-                className="absolute font-semibold bg-[#FAB616] rounded-full text-[12px] h-7 w-7 mt-1 mr-1 text-[#0E0C25] hover:bg-[#0E0C25] hover:text-white border-b-2 border-[#0E0C25] hover:border-[#FAB616] transition-colors duration-300 flex items-center justify-center group"
+                className="absolute font-semibold bg-[#1967D2] rounded-full text-[12px] h-7 w-7 mt-1 mr-1 text-white hover:bg-[#0E0C25] transition-colors duration-300 flex items-center justify-center group"
               >
                 <IoSearch className="transition-transform duration-300 text-sm" />
               </button>
@@ -217,7 +217,7 @@ export const Navigation = () => {
           </div>
           <Link
             href={"/"}
-            className="font-semibold bg-[#FAB616] px-5 py-2 rounded-lg text-[#131226] hover:bg-[#131226] hover:text-white border-b-2 border-[#0F0D26] hover:border-[#FBB614] transition-colors duration-300 flex items-center group"
+            className="font-semibold bg-[#1967D2] px-5 py-2 rounded-lg text-white hover:bg-[#131226] transition-colors duration-300 flex items-center group"
             onClick={() => setIsMenuOpen(false)}
           >
             <span>Login</span>

@@ -28,7 +28,7 @@ const combos: ComboPlan[] = [
   },
   {
     title: "Mid-Level",
-    experience: "Professionals with 3-8 years of experience",
+    experience: "3-8 years of experience",
     price: "৳ 17,000",
     save: "Save 3,000!",
     features: [
@@ -44,7 +44,7 @@ const combos: ComboPlan[] = [
   },
   {
     title: "Senior Mid-Level",
-    experience: "Professionals with 8-15 years of experience",
+    experience: "8-15 years of experience",
     price: "৳ 19,000",
     save: "Save 4,501!",
     features: [
@@ -60,8 +60,7 @@ const combos: ComboPlan[] = [
   },
   {
     title: "Senior Level",
-    experience:
-      "Professionals with 15+ years of experience or those seeking leadership roles.",
+    experience: "15+ years of experience",
     price: "৳ 29,999",
     save: "Save 6,001!",
     features: [
@@ -79,16 +78,31 @@ const combos: ComboPlan[] = [
 
 export const Combo = () => {
   return (
-    <main className="py-10 bg-gradient-to-br from-black to-gray-900 text-white">
+    <main className="py-10 bg-[#F3F8FD]">
       <div className="max-w-screen-xl mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-10">
-          Career Success Combo
-        </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="text-center mb-8">
+          <p className="text-[#1967D2] font-bold text-3xl">
+            Career Success Combo
+          </p>
+          <div className="flex items-center justify-center mt-2">
+            <div className="flex items-center gap-1">
+              <div className="h-1 w-1 bg-[#2563EB]"></div>
+              <div className="h-1 w-1 bg-[#2563EB]"></div>
+              <div className="h-1 w-1 bg-[#2563EB]"></div>
+              <div className="h-1 w-40 bg-[#2563EB]"></div>
+            </div>
+          </div>
+          <h2 className="mt-4 px-4">
+            Select the mentor who aligns with your career goals and start your
+            journey toward success today!
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-white">
           {combos.map((combo, index) => (
             <div
               key={index}
-              className="bg-blue-900 rounded-2xl shadow-lg p-6 flex flex-col justify-between"
+              className="bg-blue-600 rounded-2xl shadow-lg p-6 flex flex-col justify-between"
             >
               <div>
                 <h3 className="text-xl font-semibold text-center">
