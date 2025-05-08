@@ -1,6 +1,6 @@
 import { Footer } from "../Footer/Footer";
 import { Navigation } from "../Navigation/Navigation";
-import { Blogs } from "./blogs";
+import { Blogs } from "./Blogs";
 import { Clients } from "./Clients";
 import { Combo } from "./Combo";
 import { Counseling } from "./Counseling";
