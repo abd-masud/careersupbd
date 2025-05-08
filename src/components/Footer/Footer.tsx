@@ -4,7 +4,7 @@ import {
   FaLinkedinIn,
   FaInstagram,
 } from "react-icons/fa";
-import logo from "../../../public/images/logo.png";
+import logo from "../../../public/images/logo-f.png";
 import Image from "next/image";
 
 export const Footer = () => {

@@ -1,6 +1,6 @@
 export const Success = () => {
   return (
-    <main className="py-12 px-4 bg-white text-center">
+    <main className="py-12 px-4 max-w-screen-xl mx-auto bg-white text-center">
       <div className="text-center mb-8">
         <p className="text-[#1967D2] font-bold text-3xl">Our Success Story</p>
         <div className="flex items-center justify-center mt-2">
@@ -17,7 +17,7 @@ export const Success = () => {
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center items-start max-w-screen-xl mx-auto px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center items-start">
         {/* First Video */}
         <div className="border border-[#2563EB] rounded-md overflow-hidden">
           <iframe

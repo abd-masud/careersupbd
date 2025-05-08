@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export const Services = () => {
   return (
-    <main className="py-20 px-4 max-w-screen-xl mx-auto">
+    <main className="md:py-20 py-10 px-4 max-w-screen-xl mx-auto">
       <div className="text-center mb-12">
         <p className="text-[#1967D2] font-bold text-3xl">
           Discover Our Services
@@ -29,7 +29,7 @@ export const Services = () => {
         </h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="bg-blue-500 text-white p-6 rounded-xl relative text-center">
+        <div className="bg-blue-500 text-white p-6 rounded-xl relative text-center mb-5">
           <span
             className="absolute -top-9 right-20 text-white text-6xl font-extrabold"
             style={{
@@ -62,7 +62,7 @@ export const Services = () => {
             Order Now
           </Link>
         </div>
-        <div className="bg-purple-400 text-white p-6 rounded-xl relative text-center">
+        <div className="bg-purple-400 text-white p-6 rounded-xl relative text-center mb-5">
           <span
             className="absolute -top-9 right-20 text-white text-6xl font-extrabold"
             style={{
@@ -93,7 +93,7 @@ export const Services = () => {
             Choose Mentor
           </Link>
         </div>
-        <div className="bg-teal-400 text-white p-6 rounded-xl relative text-center">
+        <div className="bg-teal-400 text-white p-6 rounded-xl relative text-center mb-5">
           <span
             className="absolute -top-9 right-20 text-white text-6xl font-extrabold"
             style={{

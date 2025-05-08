@@ -48,7 +48,7 @@ const counselors: Counselor[] = [
 
 export const Counseling = () => {
   return (
-    <main className="px-4 py-10">
+    <main className="px-4 py-10 max-w-screen-xl mx-auto">
       <div className="text-center mb-8">
         <p className="text-[#1967D2] font-bold text-3xl">Career Counselling</p>
         <div className="flex items-center justify-center mt-2">
@@ -65,7 +65,7 @@ export const Counseling = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-screen-xl mx-auto px-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
         {counselors.map((counselor, index) => (
           <div
             key={index}
