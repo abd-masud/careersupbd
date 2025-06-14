@@ -4,8 +4,9 @@ import {
   FaLinkedinIn,
   FaInstagram,
 } from "react-icons/fa";
-import logo from "../../../public/images/logo-f.png";
+import logo from "../../../public/images/logo.png";
 import Image from "next/image";
+import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -30,7 +31,22 @@ export const Footer = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mt-10">
           <div>
-            <Image className="h-10 w-auto mb-3" src={logo} alt={"Logo"}></Image>
+            <div className="mb-3">
+              <Link className="flex items-center" href={"/"}>
+                <Image
+                  height={1000}
+                  width={1000}
+                  src={logo}
+                  alt={"Logo"}
+                  className="h-10 w-10"
+                  priority
+                />{" "}
+                <div className="flex flex-col leading-4 items-center ml-1">
+                  <span className="font-bold text-[20px]">TalentBridge</span>
+                  <span className="text-[14px]">Bangladesh</span>
+                </div>
+              </Link>
+            </div>
             <p className="text-sm mb-2">
               Many desktop publishing packages and web page editors now.
             </p>

@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    .font-helvetica {
+        font-family: Helvetica, Arial, sans-serif;
+    }
+}
+
+.bg-primary {
+    background-color: #003366;
+}
+
+.bg-secondary {
+    background-color: #FF6600;
+}
+
+.bg-accent {
+    background-color: #F2F2F2;
+}
+
+.text-primary {
+    color: #003366;
+}
+
+.text-secondary {
+    color: #FF6600;
+}
+
+.text-accent {
+    color: #F2F2F2;
+}

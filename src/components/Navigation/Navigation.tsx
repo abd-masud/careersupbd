@@ -21,7 +21,18 @@ export const Navigation = () => {
       <div className="flex items-center justify-between sm:py-5 py-3 px-4 max-w-screen-2xl mx-auto">
         <div>
           <Link className="flex items-center" href={"/"}>
-            <Image height={30} src={Logo} alt={"Logo"} priority />
+            <Image
+              height={1000}
+              width={1000}
+              src={Logo}
+              alt={"Logo"}
+              className="h-10 w-10"
+              priority
+            />{" "}
+            <div className="flex flex-col leading-4 items-center ml-1">
+              <span className="font-bold text-[20px]">TalentBridge</span>
+              <span className="text-[14px]">Bangladesh</span>
+            </div>
           </Link>
         </div>
 

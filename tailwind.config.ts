@@ -10,6 +10,7 @@ export default {
     extend: {
       backgroundImage: {
         "footer_bg": "url('/images/footer.jpg')",
+        "breadcrumb_bg": "url('/images/breadcrumb-bg.jpg')"
       },
       colors: {
         background: "var(--background)",
