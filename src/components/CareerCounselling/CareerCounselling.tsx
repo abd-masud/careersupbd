@@ -1,6 +1,7 @@
 import { Footer } from "../Footer/Footer";
 import { Navigation } from "../Navigation/Navigation";
 import { Breadcrumb } from "./Breadcrumb";
+import { CareerCounsellingList } from "./CareerCounsellingList";
 
 export const CareerCounsellingComponent = () => {
   return (
@@ -9,6 +10,7 @@ export const CareerCounsellingComponent = () => {
         <Navigation />
       </div>
       <Breadcrumb />
+      <CareerCounsellingList />
       <Footer />
     </main>
   );

@@ -75,7 +75,7 @@ export const AboutCompanies = () => {
 
   return (
     <main className="bg-[#F3F8FD]">
-      <div className="py-8 px-4 max-w-screen-xl mx-auto">
+      <div className="py-12 px-4 max-w-screen-xl mx-auto">
         <div className="text-center mb-4">
           <p className="text-[#1967D2] font-bold text-3xl">Top Companies</p>
           <div className="flex items-center justify-center mt-2">

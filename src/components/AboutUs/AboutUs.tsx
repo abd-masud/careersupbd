@@ -1,6 +1,7 @@
 import { Footer } from "../Footer/Footer";
 import { Navigation } from "../Navigation/Navigation";
 import { AboutCompanies } from "./AboutCompanies";
+import { AboutContact } from "./AboutContact";
 import { AboutMissionVision } from "./AboutMissionVision";
 import { Breadcrumb } from "./Breadcrumb";
 
@@ -13,6 +14,7 @@ export const AboutUsComponent = () => {
       <Breadcrumb />
       <AboutMissionVision />
       <AboutCompanies />
+      <AboutContact />
       <Footer />
     </main>
   );
