@@ -64,33 +64,63 @@ export const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-3">For Candidate</h3>
             <ul className="space-y-2 text-sm">
-              <li>› Candidates List</li>
-              <li>› Candidates Grid</li>
-              <li>› Candidate Detail</li>
-              <li>› Blog</li>
-              <li>› Blog Grid–2</li>
+              <li>
+                <Link href={""}>› Candidates List</Link>
+              </li>
+              <li>
+                <Link href={""}>› Candidates Grid</Link>
+              </li>
+              <li>
+                <Link href={""}>› Candidate Detail</Link>
+              </li>
+              <li>
+                <Link href={""}>› Blog</Link>
+              </li>
+              <li>
+                <Link href={""}>› Blog Grid–2</Link>
+              </li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-semibold mb-3">For Employers</h3>
             <ul className="space-y-2 text-sm">
-              <li>› Employers List</li>
-              <li>› Employers Grid</li>
-              <li>› Employers Detail</li>
-              <li>› Blog List</li>
-              <li>› Blog Grid</li>
+              <li>
+                <Link href={""}>› Employers List</Link>
+              </li>
+              <li>
+                <Link href={""}>› Employers Grid</Link>
+              </li>
+              <li>
+                <Link href={""}>› Employers Detail</Link>
+              </li>
+              <li>
+                <Link href={""}>› Blog List</Link>
+              </li>
+              <li>
+                <Link href={""}>› Blog Grid</Link>
+              </li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-semibold mb-3">Helpful Resources</h3>
             <ul className="space-y-2 text-sm">
-              <li>› About Us</li>
-              <li>› FAQ</li>
-              <li>› Contact Us</li>
-              <li>› Coming Soon</li>
-              <li>› Under Maintenance</li>
+              <li>
+                <Link href={""}>› About Us</Link>
+              </li>
+              <li>
+                <Link href={""}>› FAQ</Link>
+              </li>
+              <li>
+                <Link href={""}>› Contact Us</Link>
+              </li>
+              <li>
+                <Link href={""}>› Coming Soon</Link>
+              </li>
+              <li>
+                <Link href={""}>› Under Maintenance</Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -101,10 +131,18 @@ export const Footer = () => {
             All rights reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <FaFacebookF className="hover:text-blue-400 cursor-pointer" />
-            <FaTwitter className="hover:text-blue-400 cursor-pointer" />
-            <FaLinkedinIn className="hover:text-blue-400 cursor-pointer" />
-            <FaInstagram className="hover:text-blue-400 cursor-pointer" />
+            <Link href={""}>
+              <FaFacebookF className="hover:text-blue-400 cursor-pointer" />
+            </Link>
+            <Link href={""}>
+              <FaTwitter className="hover:text-blue-400 cursor-pointer" />
+            </Link>
+            <Link href={""}>
+              <FaLinkedinIn className="hover:text-blue-400 cursor-pointer" />
+            </Link>
+            <Link href={""}>
+              <FaInstagram className="hover:text-blue-400 cursor-pointer" />
+            </Link>
           </div>
         </div>
       </div>

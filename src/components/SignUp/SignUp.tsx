@@ -1,16 +1,14 @@
 import { Footer } from "../Footer/Footer";
 import { Navigation } from "../Navigation/Navigation";
-import { Breadcrumb } from "./Breadcrumb";
-import { CVResumeWritingForm } from "./CVResumeWritingForm";
+import { SignUpForm } from "./SignUpForm";
 
-export const CVResumeWritingComponent = () => {
+export const SignUpComponent = () => {
   return (
     <main>
       <div className="sticky top-0 z-50">
         <Navigation />
       </div>
-      <Breadcrumb />
-      <CVResumeWritingForm />
+      <SignUpForm />
       <Footer />
     </main>
   );

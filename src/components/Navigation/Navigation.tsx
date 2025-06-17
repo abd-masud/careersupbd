@@ -55,14 +55,6 @@ export const Navigation = () => {
           </Link>
           <Link
             className={`mx-5 hover:text-[#1967D2] transition duration-300 ${isActive(
-              "/services"
-            )}`}
-            href={"/services"}
-          >
-            Services
-          </Link>
-          <Link
-            className={`mx-5 hover:text-[#1967D2] transition duration-300 ${isActive(
               "/premium-services"
             )}`}
             href={"/premium-services"}
@@ -107,7 +99,7 @@ export const Navigation = () => {
               </form>
             </div>
             <Link
-              href={"/"}
+              href={"/login"}
               className="font-semibold bg-[#1967D2] px-5 py-2 rounded-lg text-white hover:bg-[#131226] hover:text-white transition-colors duration-300 flex items-center group"
             >
               <>
@@ -167,17 +159,6 @@ export const Navigation = () => {
           </Link>
           <Link
             className={`${
-              isActive("/services") == "text-[#1967D2]"
-                ? "text-[#1967D2]"
-                : "text-black"
-            }`}
-            href={"/services"}
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Services
-          </Link>
-          <Link
-            className={`${
               isActive("/premium-services") == "text-[#1967D2]"
                 ? "text-[#1967D2]"
                 : "text-black"
@@ -227,7 +208,7 @@ export const Navigation = () => {
             </form>
           </div>
           <Link
-            href={"/"}
+            href={"/login"}
             className="font-semibold bg-[#1967D2] px-5 py-2 rounded-lg text-white hover:bg-[#131226] transition-colors duration-300 flex items-center group"
             onClick={() => setIsMenuOpen(false)}
           >
